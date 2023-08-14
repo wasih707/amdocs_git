@@ -1,0 +1,16 @@
+package threads;
+
+class Demo extends Thread
+{
+	public void run() {
+		System.out.println("Thread is running");
+	}
+}
+public class Main {
+	public static void main( String[] args) {
+		Demo d1 = new Demo();
+		d1.start();
+		System.out.println(d1.getName());
+	}
+
+}

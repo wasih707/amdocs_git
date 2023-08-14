@@ -1,0 +1,8 @@
+package interface1;
+
+public class Interface1 {
+	static public void main(String[] args) {
+		System.out.println("A");
+	}
+
+}
